@@ -7,3 +7,5 @@ The purpose of this repository is try out different GitHub features. Things like
 * PreTeXt
 * manim
 * lean
+
+This is another line that to see how source control works.
