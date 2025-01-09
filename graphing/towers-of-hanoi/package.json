@@ -1,0 +1,17 @@
+{
+  "name": "towers-of-hanoi",
+  "version": "1.0.0",
+  "description": "A simple Towers of Hanoi puzzle applet built with HTML, CSS, and JavaScript.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "towers",
+    "hanoi",
+    "puzzle",
+    "game"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.peg {
+    width: 20px;
+    height: 200px;
+    background-color: #8b4513;
+    position: relative;
+    margin: 0 20px;
+}
+
+.disk {
+    width: 100px;
+    height: 20px;
+    background-color: #4682b4;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+
+.disk:nth-child(1) { width: 80px; background-color: #ff6347; }
+.disk:nth-child(2) { width: 90px; background-color: #ffd700; }
+.disk:nth-child(3) { width: 100px; background-color: #32cd32; }
+.disk:nth-child(4) { width: 110px; background-color: #1e90ff; }
+
+#message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
